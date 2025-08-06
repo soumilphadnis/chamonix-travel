@@ -1,14 +1,4 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
 
-*/
-/* New Global Styles */
-/* GLOBAL STYLES */
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -206,7 +196,8 @@ footer {
 }
 
 .card {
-    width: 500px;
+    flex-wrap: wrap;
+    width: auto;
     margin: 0 auto;
     padding: 20px;
     display: flex;
@@ -222,22 +213,3 @@ footer {
     border: 1px dotted blue;
 }
 
-/** .activity-one {
-  flex: 50%;
-}
-
-.activity-two {
-  flex: 50%;
-}
-
-.activity-three {
-    flex: 50%;
-}
-
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-/**@media (max-width: 700px) {
-  .activity-one, .activity-two, .activity-three  {
-    flex: 10%;
-  }
-}
-*/
